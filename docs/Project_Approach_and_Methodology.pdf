@@ -1,0 +1,267 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Length 3924 >>
+stream
+0.250 0.400 0.550 rg BT /F2 8 Tf 1 0 0 1 58.00 754.00 Tm (MULTIMODAL DOCUMENT RAG  /  PROJECT REPORT) Tj ET
+0.820 0.860 0.900 RG 0.80 w 58.00 745.00 m 554.00 745.00 l S
+0.10 0.25 0.40 rg 0 478 612 314 re f
+0.690 0.840 0.940 rg BT /F2 10 Tf 1 0 0 1 58.00 716.00 Tm (PROJECT APPROACH) Tj ET
+1.000 1.000 1.000 rg BT /F2 27 Tf 1 0 0 1 58.00 672.00 Tm (Multimodal Document RAG) Tj ET
+0.900 0.940 0.970 rg BT /F1 14 Tf 1 0 0 1 58.00 638.00 Tm (Approach, Methodology, and Design Rationale) Tj ET
+0.420 0.650 0.800 RG 1.50 w 58.00 610.00 m 245.00 610.00 l S
+0.100 0.250 0.400 rg BT /F2 14 Tf 1 0 0 1 58.00 566.00 Tm (A practical PDF question-answering system) Tj ET
+0.160 0.200 0.270 rg BT /F1 10.4 Tf 1 0 0 1 58.00 724.00 Tm (This report describes the implemented application workflow, the reasoning behind its main design) Tj ET
+0.160 0.200 0.270 rg BT /F1 10.4 Tf 1 0 0 1 58.00 708.00 Tm (decisions, key assumptions and challenges, and improvements identified for future work.) Tj ET
+0.370 0.430 0.500 rg BT /F1 9 Tf 1 0 0 1 58.00 462.00 Tm (Prepared: 30 October 2026) Tj ET
+0.370 0.430 0.500 rg BT /F1 9 Tf 1 0 0 1 58.00 442.00 Tm (Scope: Streamlit application, PDF ingestion, hybrid retrieval, grounded responses) Tj ET
+0.100 0.250 0.400 rg BT /F2 16 Tf 1 0 0 1 58.00 372.00 Tm (Executive summary) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 348.00 Tm (The project implements a local-first, PDF-focused retrieval-augmented generation \(RAG\) application.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 333.80 Tm (Users upload PDFs, explicitly start indexing, and ask questions in a Streamlit chat. The system) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 319.60 Tm (extracts and chunks document content, stores embeddings and metadata in Chroma, retrieves candidate) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 305.40 Tm (evidence through complementary search methods, reranks candidates, and generates an answer with) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 291.20 Tm (source references. Conversation is routed separately from factual questions. The design prioritizes) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 277.00 Tm (document provenance, duplicate-work avoidance, and explicit abstention when evidence is unavailable.) Tj ET
+0.100 0.250 0.400 rg BT /F2 16 Tf 1 0 0 1 58.00 250.80 Tm (1. Goals and scope) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 226.80 Tm (The primary goal is to make information in uploaded PDF documents searchable and answerable through) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 212.60 Tm (natural-language questions, while preserving the source document, page, and chunk used for each) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 198.40 Tm (answer.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 180.20 Tm (- Input: PDF files only, validated for file type, non-zero size, PDF signature, and a 100 MB) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 166.60 Tm (per-file limit.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 149.00 Tm (- Processing: Docling extraction, OCR and structure capture, type-aware chunking, embeddings,) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 135.40 Tm (and persistent vector indexing.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 117.80 Tm (- Interaction: Explicit sidebar processing control, visible per-file status, chat, follow-up) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 104.20 Tm (context, citations, and a retrieved-chunk selector.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 86.60 Tm (- Boundary: Extracted page imagery is retained as provenance/assets; this is not a full) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 73.00 Tm (visual-language-model pipeline for interpreting every chart image.) Tj ET
+0.55 0.60 0.66 rg BT /F1 8 Tf 1 0 0 1 489 30 Tm (Page 1 of 6) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 5187 >>
+stream
+0.250 0.400 0.550 rg BT /F2 8 Tf 1 0 0 1 58.00 754.00 Tm (MULTIMODAL DOCUMENT RAG  /  PROJECT REPORT) Tj ET
+0.820 0.860 0.900 RG 0.80 w 58.00 745.00 m 554.00 745.00 l S
+0.100 0.250 0.400 rg BT /F2 16 Tf 1 0 0 1 58.00 716.00 Tm (2. Approach and methodology) Tj ET
+0.100 0.250 0.400 rg BT /F2 12 Tf 1 0 0 1 58.00 687.00 Tm (2.1 Upload and duplicate control) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 667.00 Tm (Each uploaded file is read and hashed with SHA-256. Before expensive extraction, the pipeline) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 652.80 Tm (searches ingestion manifests for a matching digest, then verifies that the corresponding chunk file) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 638.60 Tm (and filtered Chroma records exist. A complete match is reported as already indexed and skipped. This) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 624.40 Tm (avoids repeated processing of byte-identical PDFs while avoiding false skips when manifest, chunks,) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 610.20 Tm (or vectors are missing.) Tj ET
+0.100 0.250 0.400 rg BT /F2 12 Tf 1 0 0 1 58.00 587.00 Tm (2.2 Extraction and type-aware chunking) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 567.00 Tm (Docling converts the PDF into structured content and page-aware metadata. The chunking stage) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 552.80 Tm (preserves text, tables, and image-related content as typed records, including headings, page numbers,) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 538.60 Tm (and source regions where available. Chunk records are persisted as JSONL and support later retrieval) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 524.40 Tm (and inspection.) Tj ET
+0.100 0.250 0.400 rg BT /F2 12 Tf 1 0 0 1 58.00 501.20 Tm (2.3 Embedding and persistent storage) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 481.20 Tm (Text chunks are encoded with sentence-transformers/all-MiniLM-L6-v2 and stored in a persistent Chroma) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 467.00 Tm (collection. Metadata includes document ID and name, chunk ID, content type, page range, headings, and) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 452.80 Tm (available provenance. Persistence allows the application to reuse an index across runs without) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 438.60 Tm (re-embedding unchanged documents.) Tj ET
+0.100 0.250 0.400 rg BT /F2 12 Tf 1 0 0 1 58.00 415.40 Tm (2.4 Hybrid retrieval and reranking) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 395.40 Tm (For a factual request, the workflow searches each discovered document using semantic vector search) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 381.20 Tm (and BM25 keyword search. Reciprocal-rank fusion combines the ranked lists; table-aware matching adds) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 367.00 Tm (signals for row labels and headers. A configurable cross-encoder then reranks candidate query/chunk) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 352.80 Tm (pairs and returns the top evidence. Combining methods is intended to handle both paraphrased) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 338.60 Tm (questions and exact terms, figures, or table labels.) Tj ET
+0.100 0.250 0.400 rg BT /F2 12 Tf 1 0 0 1 58.00 315.40 Tm (2.5 Intent, context, and answer generation) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 295.40 Tm (The LangGraph flow first contextualizes a follow-up when useful, using prior user questions rather) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 281.20 Tm (than treating prior assistant claims as evidence. Greetings, personal conversation, and) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 267.00 Tm (application-usage questions are handled separately. Factual or explanatory questions route to PDF) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 252.80 Tm (retrieval, including requests that do not mention a PDF explicitly. Retrieved evidence is passed to) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 238.60 Tm (the configured Gemini model with instructions to answer only from the evidence, cite document and) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 224.40 Tm (page, and abstain for missing, unrelated, or contradictory support.) Tj ET
+0.100 0.250 0.400 rg BT /F2 12 Tf 1 0 0 1 58.00 201.20 Tm (2.6 User interface and startup) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 181.20 Tm (The Streamlit sidebar provides a deliberate Process and index PDFs action and progress/status) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 167.00 Tm (feedback. Questions are added to chat only after an answer has been generated. Embedding and reranker) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 152.80 Tm (model objects are warmed and cached at app startup so weights are reused across Streamlit reruns and) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 138.60 Tm (queries.) Tj ET
+0.55 0.60 0.66 rg BT /F1 8 Tf 1 0 0 1 489 30 Tm (Page 2 of 6) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 5520 >>
+stream
+0.250 0.400 0.550 rg BT /F2 8 Tf 1 0 0 1 58.00 754.00 Tm (MULTIMODAL DOCUMENT RAG  /  PROJECT REPORT) Tj ET
+0.820 0.860 0.900 RG 0.80 w 58.00 745.00 m 554.00 745.00 l S
+0.100 0.250 0.400 rg BT /F2 16 Tf 1 0 0 1 58.00 716.00 Tm (3. Design decisions and rationale) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 692.00 Tm (- PDF-first scope: A narrow, explicit input contract supports reliable validation,) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 678.40 Tm (extraction, page references, and a manageable user workflow.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 660.80 Tm (- Explicit processing action: Indexing can be expensive. Requiring a button makes the) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 647.20 Tm (transition clear, exposes progress, and prevents a query from racing pending uploads.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 629.60 Tm (- Content hashing: A cryptographic digest identifies identical file bytes independent of) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 616.00 Tm (filename; checking manifest, chunks, and Chroma together prevents treating incomplete work as) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 602.40 Tm (a successful duplicate.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 584.80 Tm (- Typed chunks and metadata: Separating text, table, and image-related records retains useful) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 571.20 Tm (structure and enables the UI to show the actual retrieved passage with provenance.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 553.60 Tm (- Hybrid search: Dense retrieval captures semantic similarity; BM25 and table heuristics help) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 540.00 Tm (with exact names, values, and row/column clues. Reranking improves ordering after candidate) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 526.40 Tm (retrieval.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 508.80 Tm (- Separate conversation routing: Greetings and app-help do not need document search. Factual) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 495.20 Tm (questions should be checked against the corpus even when no fixed keyword is present.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 477.60 Tm (- Grounded generation and abstention: The model receives retrieved evidence rather than being) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 464.00 Tm (asked to answer from general knowledge. Missing or weak support should result in an explicit) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 450.40 Tm (limitation, not an invented answer.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 432.80 Tm (- Local persistence and model caching: Chroma and downloaded model caches avoid unnecessary) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 419.20 Tm (rebuilds; Streamlit resource caching avoids repeated in-memory model initialization on) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 405.60 Tm (reruns.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 388.00 Tm (- Environment template, not secrets: Configuration is documented in .env.example with empty) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 374.40 Tm (credential slots; real credentials are excluded from source control.) Tj ET
+0.100 0.250 0.400 rg BT /F2 16 Tf 1 0 0 1 58.00 348.80 Tm (4. Assumptions) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 324.80 Tm (- Users have the right to process and share their uploaded PDFs, and the documents are valid,) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 311.20 Tm (readable PDFs.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 293.60 Tm (- Local storage is available for extracted assets, JSONL chunks, model caches, and the) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 280.00 Tm (persistent vector database.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 262.40 Tm (- Model downloads may be required on first use; a Gemini API key is optional but needed for) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 248.80 Tm (generative answers and model-assisted intent/context handling.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 231.20 Tm (- Page citations reflect extraction metadata. OCR and chart text may omit spatial) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 217.60 Tm (relationships or contain recognition errors.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 200.00 Tm (- Content-hash deduplication detects identical bytes only; re-saved copies with different PDF) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 186.40 Tm (metadata may be processed again.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 168.80 Tm (- The current local app is designed for a single-user workspace and does not provide) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 155.20 Tm (production-grade multi-user authorization or tenant isolation.) Tj ET
+0.100 0.250 0.400 rg BT /F2 16 Tf 1 0 0 1 58.00 129.60 Tm (5. Challenges encountered) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 105.60 Tm (- Chroma API compatibility: The installed Collection.count\(\) did not accept a where filter.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 92.00 Tm (Duplicate checks were changed to use filtered get\(\) and count returned IDs.) Tj ET
+0.55 0.60 0.66 rg BT /F1 8 Tf 1 0 0 1 489 30 Tm (Page 3 of 6) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 1506 >>
+stream
+0.250 0.400 0.550 rg BT /F2 8 Tf 1 0 0 1 58.00 754.00 Tm (MULTIMODAL DOCUMENT RAG  /  PROJECT REPORT) Tj ET
+0.820 0.860 0.900 RG 0.80 w 58.00 745.00 m 554.00 745.00 l S
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 724.00 Tm (- Model startup latency: Embedding and reranking weights loaded repeatedly during) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 710.40 Tm (reruns/queries. Shared cached factories and Streamlit startup warming were added.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 692.80 Tm (- Windows model cache behavior: Hugging Face may warn about unsupported symlinks; cache) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 679.20 Tm (downloads still work but can consume more disk space.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 661.60 Tm (- Tables and visual evidence: Flattened OCR text may preserve numbers and labels but lose) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 648.00 Tm (their layout, so a chart value cannot safely be attributed to a label without explicit) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 634.40 Tm (evidence.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 616.80 Tm (- Output formatting: LLM output can include malformed Markdown such as stray backticks around) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 603.20 Tm (currency amounts; answer formatting instructions and narrow cleanup were added.) Tj ET
+0.55 0.60 0.66 rg BT /F1 8 Tf 1 0 0 1 489 30 Tm (Page 4 of 6) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 5749 >>
+stream
+0.250 0.400 0.550 rg BT /F2 8 Tf 1 0 0 1 58.00 754.00 Tm (MULTIMODAL DOCUMENT RAG  /  PROJECT REPORT) Tj ET
+0.820 0.860 0.900 RG 0.80 w 58.00 745.00 m 554.00 745.00 l S
+0.100 0.250 0.400 rg BT /F2 16 Tf 1 0 0 1 58.00 716.00 Tm (6. Validation and current limitations) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 692.00 Tm (Automated tests cover intent routing, conversation history, source metadata, answer parsing and) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 677.80 Tm (provider errors, duplicate PDF checks, ingestion orchestration, reranker ordering/fallback, and) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 663.60 Tm (model-cache reuse. The test suite reported 29 passing tests after the model caching changes. This) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 649.40 Tm (demonstrates covered unit behavior, not a complete real-world evaluation of extraction quality or) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 635.20 Tm (answer correctness.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 617.00 Tm (The implementation remains dependent on extraction quality, retrieval relevance, and the configured) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 602.80 Tm (model. An instruction to abstain reduces unsupported claims but cannot guarantee that a generative) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 588.60 Tm (model will never hallucinate. The no-key fallback is intentionally limited and cannot replace) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 574.40 Tm (general-purpose conversation or semantic relevance judgment.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 556.20 Tm (The current visual pipeline tracks extracted image/page assets but does not consistently reason over) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 542.00 Tm (chart geometry. The model weights are not part of the source repository and must be fetched or) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 527.80 Tm (populated in the local Hugging Face cache. A fresh end-to-end test over a representative PDF is still) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 513.60 Tm (valuable after deployment or model/dependency changes.) Tj ET
+0.100 0.250 0.400 rg BT /F2 16 Tf 1 0 0 1 58.00 487.40 Tm (7. Improvements considered) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 463.40 Tm (- Evidence relevance gate: Add calibrated retrieval confidence and/or a dedicated) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 449.80 Tm (evidence-sufficiency classifier, evaluated on relevant and deliberately unrelated questions,) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 436.20 Tm (before generation.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 418.60 Tm (- Citation validation: Require structured model output that maps answer claims to specific) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 405.00 Tm (source chunks/pages, then validate references against the evidence actually retrieved.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 387.40 Tm (- Chart and table reasoning: Add layout-aware table reconstruction and optional vision-model) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 373.80 Tm (interpretation of page crops, preserving visual coordinates and checking numerical) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 360.20 Tm (relationships.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 342.60 Tm (- Quality evaluation: Build a representative benchmark of PDFs and questions with expected) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 329.00 Tm (source pages; measure retrieval recall, citation accuracy, answer support, and abstention on) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 315.40 Tm (unanswerable questions.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 297.80 Tm (- Operational hardening: Add structured logging, user-facing model/provider error states,) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 284.20 Tm (resource limits, index health checks, and explicit backup/restore guidance for persistent) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 270.60 Tm (data.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 253.00 Tm (- Multi-user deployment: If deployed beyond a trusted local environment, add authentication,) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 239.40 Tm (per-user document authorization, tenant-scoped indexes, upload scanning, and data-retention) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 225.80 Tm (controls.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 208.20 Tm (- Cache controls: Expose model cache location and startup status, and offer configuration to) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 194.60 Tm (disable the local reranker on constrained hardware.) Tj ET
+0.100 0.250 0.400 rg BT /F2 16 Tf 1 0 0 1 58.00 169.00 Tm (8. End-to-end flow) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 145.00 Tm (- Upload PDF -> validate size/signature -> compute SHA-256.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 127.40 Tm (- Check manifest, chunk file, and Chroma vectors -> skip only if complete duplicate.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 109.80 Tm (- Extract PDF structure/OCR -> create typed chunks with source metadata.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 92.20 Tm (- Embed chunks -> persist vectors and metadata in Chroma.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 74.60 Tm (- Classify user message -> conversation path or factual RAG path.) Tj ET
+0.55 0.60 0.66 rg BT /F1 8 Tf 1 0 0 1 489 30 Tm (Page 5 of 6) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 1269 >>
+stream
+0.250 0.400 0.550 rg BT /F2 8 Tf 1 0 0 1 58.00 754.00 Tm (MULTIMODAL DOCUMENT RAG  /  PROJECT REPORT) Tj ET
+0.820 0.860 0.900 RG 0.80 w 58.00 745.00 m 554.00 745.00 l S
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 724.00 Tm (- Retrieve with vector + BM25 + table signals -> rerank candidates.) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.4 Tf 1 0 0 1 68.00 706.40 Tm (- Generate only from evidence -> return answer, citations, and inspectable source chunks.) Tj ET
+0.100 0.250 0.400 rg BT /F2 16 Tf 1 0 0 1 58.00 680.80 Tm (Conclusion) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 656.80 Tm (The solution combines a transparent PDF ingestion workflow with provenance-aware hybrid retrieval and) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 642.60 Tm (a chat interface. Its core design favors inspectable evidence, reproducible local indexing, and) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 628.40 Tm (explicit uncertainty. The most valuable next steps are stronger evidence-sufficiency validation,) Tj ET
+0.160 0.200 0.270 rg BT /F1 9.6 Tf 1 0 0 1 58.00 614.20 Tm (layout-aware chart/table interpretation, and systematic evaluation against representative documents.) Tj ET
+0.55 0.60 0.66 rg BT /F1 8 Tf 1 0 0 1 489 30 Tm (Page 6 of 6) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R] /Count 6 >>
+endobj
+16 0 obj
+<< /Type /Catalog /Pages 15 0 R >>
+endobj
+17 0 obj
+<< /Title (Project Approach and Methodology - Multimodal Document RAG) /Author (Project Team) /Subject (Approach, design decisions, assumptions, challenges, and improvements) /Creator (Project report generator) >>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000015 00000 n 
+0000000112 00000 n 
+0000000214 00000 n 
+0000004190 00000 n 
+0000004327 00000 n 
+0000009566 00000 n 
+0000009703 00000 n 
+0000015275 00000 n 
+0000015412 00000 n 
+0000016970 00000 n 
+0000017108 00000 n 
+0000022910 00000 n 
+0000023049 00000 n 
+0000024371 00000 n 
+0000024510 00000 n 
+0000024601 00000 n 
+0000024652 00000 n 
+trailer
+<< /Size 18 /Root 16 0 R /Info 17 0 R >>
+startxref
+24882
+%%EOF
