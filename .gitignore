@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+
+# Local environments and generated Python files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Downloaded model weights
+models/
+*.safetensors
+
+# Local Streamlit credentials
+.streamlit/secrets.toml

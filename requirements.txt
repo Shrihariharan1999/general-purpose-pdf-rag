@@ -1,0 +1,26 @@
+# PDF ingestion and OCR
+docling[rapidocr]==2.144.0
+langchain-docling==3.0.0
+PyMuPDF
+Pillow
+
+# LangChain and agent orchestration
+langchain-core
+langchain-text-splitters
+langchain-google-genai
+langgraph
+langsmith
+
+# Embeddings and hybrid retrieval
+sentence-transformers
+chromadb
+langchain-chroma
+rank-bm25
+
+# Application and configuration
+streamlit
+python-dotenv
+pydantic
+
+# Testing
+pytest

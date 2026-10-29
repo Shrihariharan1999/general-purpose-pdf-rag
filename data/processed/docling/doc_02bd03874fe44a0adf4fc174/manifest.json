@@ -1,0 +1,30 @@
+{
+  "document_id": "doc_02bd03874fe44a0adf4fc174",
+  "source_file": "02bd03874fe4_Shrihariharan_S_Resume_AI.pdf",
+  "content_sha256": "02bd03874fe44a0adf4fc174b03631ca8e519e4e52a5162be8172690205c00df",
+  "docling_version": "2.144.0",
+  "conversion_status": "success",
+  "page_count": 2,
+  "processed_at": "2026-10-29T22:13:07.937821+00:00",
+  "conversion_seconds": 6.62,
+  "processing_seconds": 6.76,
+  "ocr_enabled": true,
+  "table_mode": "FAST",
+  "outputs": {
+    "native_json": "data/processed/docling/doc_02bd03874fe44a0adf4fc174/document.json",
+    "markdown": "data/processed/docling/doc_02bd03874fe44a0adf4fc174/document.md"
+  },
+  "page_images": [
+    {
+      "page_number": 1,
+      "path": "artifacts/figures/doc_02bd03874fe44a0adf4fc174/page_0001.png"
+    },
+    {
+      "page_number": 2,
+      "path": "artifacts/figures/doc_02bd03874fe44a0adf4fc174/page_0002.png"
+    }
+  ],
+  "visual_assets": [],
+  "conversion_errors": [],
+  "warnings": []
+}

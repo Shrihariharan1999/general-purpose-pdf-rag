@@ -1,0 +1,16 @@
+{
+  "document_id": "doc_02bd03874fe44a0adf4fc174",
+  "total_chunks": 19,
+  "text_chunks": 19,
+  "table_chunks": 0,
+  "image_chunks": 0,
+  "source_tables": 0,
+  "source_pictures": 0,
+  "pages_covered": 2,
+  "page_count": 2,
+  "pages_missing": [],
+  "chunks_missing_page_metadata": 0,
+  "chunks_over_token_target": 0,
+  "average_text_tokens": 129.42,
+  "output_file": "C:\\Users\\shrih\\Downloads\\multimodal-document-rag\\data\\processed\\chunks\\doc_02bd03874fe44a0adf4fc174_typeaware\\chunks.jsonl"
+}

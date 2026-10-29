@@ -1,0 +1,2265 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "02bd03874fe4_Shrihariharan_S_Resume_AI",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 16723878141723672799,
+    "filename": "02bd03874fe4_Shrihariharan_S_Resume_AI.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/groups/11"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/64"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 258.41,
+            "t": 758.42292,
+            "r": 353.5479200000001,
+            "b": 750.0453527272726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "SHRIHARIHARAN S",
+      "text": "SHRIHARIHARAN S",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 171.74,
+            "t": 745.02228,
+            "r": 440.21228,
+            "b": 736.44672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "AI/ML Engineer | Generative AI |Machine Learning | Data Science",
+      "text": "AI/ML Engineer | Generative AI |Machine Learning | Data Science"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 136.1,
+            "t": 731.58228,
+            "r": 475.46708000000086,
+            "b": 723.00672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            77
+          ]
+        }
+      ],
+      "orig": "Kanchipuram, Tamil Nadu, India | +91 9585298060 | shrihariharan1999@gmail.com",
+      "text": "Kanchipuram, Tamil Nadu, India | +91 9585298060 | shrihariharan1999@gmail.com"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 124.82,
+            "t": 718.00228,
+            "r": 487.0384000000005,
+            "b": 709.42672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "www.linkedin.com/in/shrihariharan-shankar-654b1a160/ | github.com/Shrihariharan1999",
+      "text": "www.linkedin.com/in/shrihariharan-shankar-654b1a160/ | github.com/Shrihariharan1999",
+      "hyperlink": "https://www.linkedin.com/in/shrihariharan-shankar-654b1a160/"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.0,
+            "t": 698.40292,
+            "r": 169.45404000000008,
+            "b": 690.0253527272727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "PROFESSIONAL SUMMARY",
+      "text": "PROFESSIONAL SUMMARY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.0,
+            "t": 672.04228,
+            "r": 576.1600000000001,
+            "b": 559.9067200000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1282
+          ]
+        }
+      ],
+      "orig": "AI/ML and Generative AI Engineer with 4+ years of professional IT experience, including enterprise payment implementation and test engineering at Wipro, an M. Tech in Computer Science (AI & Data Science) from VIT Chennai (CGPA 9.28/10), and hands-on experience building AI applications. I work primarily with Python and have built machine learning and deep learning solutions, QLoRA fine-tuned LLMs, hybrid RAG systems using FAISS and BM25 with reranking, and multi-agent applications using LangChain, LangGraph, MCP, and FastAPI. My recent work includes VoyageAI, a live multi-agent travel planner deployed on Google Cloud, an autonomous data analyst for CSV/Excel data, an Enterprise RAG platform, and an AI automation testing agent. At Wipro, I owned 30+ Mastercard payment-modernization projects across requirements, implementation, testing, and production rollout. During my Intel internship, I worked on Python-based automation for post-silicon validation, cache coherency, seamless runtime patching of processor microcode components such as uCode/pCode, structured log analysis, and failure investigation, while also building RAG-based and agentic AI applications. I enjoy turning AI concepts into practical systems with APIs, evaluation, guardrails, testing, and deployment.",
+      "text": "AI/ML and Generative AI Engineer with 4+ years of professional IT experience, including enterprise payment implementation and test engineering at Wipro, an M. Tech in Computer Science (AI & Data Science) from VIT Chennai (CGPA 9.28/10), and hands-on experience building AI applications. I work primarily with Python and have built machine learning and deep learning solutions, QLoRA fine-tuned LLMs, hybrid RAG systems using FAISS and BM25 with reranking, and multi-agent applications using LangChain, LangGraph, MCP, and FastAPI. My recent work includes VoyageAI, a live multi-agent travel planner deployed on Google Cloud, an autonomous data analyst for CSV/Excel data, an Enterprise RAG platform, and an AI automation testing agent. At Wipro, I owned 30+ Mastercard payment-modernization projects across requirements, implementation, testing, and production rollout. During my Intel internship, I worked on Python-based automation for post-silicon validation, cache coherency, seamless runtime patching of processor microcode components such as uCode/pCode, structured log analysis, and failure investigation, while also building RAG-based and agentic AI applications. I enjoy turning AI concepts into practical systems with APIs, evaluation, guardrails, testing, and deployment."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.0,
+            "t": 548.73292,
+            "r": 135.09204,
+            "b": 540.3553527272727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "TECHNICAL SKILLS",
+      "text": "TECHNICAL SKILLS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 525.37228,
+            "r": 576.05668,
+            "b": 493.87672000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            302
+          ]
+        }
+      ],
+      "orig": "· Generative AI & Agentic Systems: LLMs, RAG, Hybrid Retrieval (FAISS + BM25), Cross-Encoder Reranking, LangChain, LangGraph, deepagents, MCP, Tool Calling, Multi-Agent Systems, Human-in-the-Loop, Guardrails, Self-Healing, LLM-as-aJudge, LLM Evaluation, Prompt Engineering, LoRA, QLoRA, PEFT, LangSmith",
+      "text": "Generative AI & Agentic Systems: LLMs, RAG, Hybrid Retrieval (FAISS + BM25), Cross-Encoder Reranking, LangChain, LangGraph, deepagents, MCP, Tool Calling, Multi-Agent Systems, Human-in-the-Loop, Guardrails, Self-Healing, LLM-as-aJudge, LLM Evaluation, Prompt Engineering, LoRA, QLoRA, PEFT, LangSmith",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 488.89228,
+            "r": 575.7822800000002,
+            "b": 457.39672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            302
+          ]
+        }
+      ],
+      "orig": "· Machine Learning & Data Science: Regression, Classification, Decision Trees, Random Forest, SVM, KNN, XGBoost, LightGBM, CatBoost, AdaBoost, Gradient Boosting, K-Means, DBSCAN, PCA, Feature Engineering, Hyperparameter Tuning, Cross-Validation, SHAP, SMOTE, Data Analysis & Visualization, ML Pipelines",
+      "text": "Machine Learning & Data Science: Regression, Classification, Decision Trees, Random Forest, SVM, KNN, XGBoost, LightGBM, CatBoost, AdaBoost, Gradient Boosting, K-Means, DBSCAN, PCA, Feature Engineering, Hyperparameter Tuning, Cross-Validation, SHAP, SMOTE, Data Analysis & Visualization, ML Pipelines",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 452.41228,
+            "r": 576.001,
+            "b": 432.31672000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            224
+          ]
+        }
+      ],
+      "orig": "· Deep Learning & NLP: ANN, CNN, RNN, LSTM, GRU, Transfer Learning, Computer Vision, Time-Series Forecasting, GANs, Transformers, Self/Multi-Head Attention, Tokenization, Embeddings, TF-IDF, Word2Vec, NER, Sentiment Analysis",
+      "text": "Deep Learning & NLP: ANN, CNN, RNN, LSTM, GRU, Transfer Learning, Computer Vision, Time-Series Forecasting, GANs, Transformers, Self/Multi-Head Attention, Tokenization, Embeddings, TF-IDF, Word2Vec, NER, Sentiment Analysis",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 427.45228000000003,
+            "r": 575.86312,
+            "b": 407.35672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            182
+          ]
+        }
+      ],
+      "orig": "· Languages & Frameworks: Python, SQL, C, PyTorch, TensorFlow, Keras, Scikit-learn, Pandas, NumPy, OpenCV, NLTK, Hugging Face Transformers, Sentence-Transformers, Pydantic, Streamlit",
+      "text": "Languages & Frameworks: Python, SQL, C, PyTorch, TensorFlow, Keras, Scikit-learn, Pandas, NumPy, OpenCV, NLTK, Hugging Face Transformers, Sentence-Transformers, Pydantic, Streamlit",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 402.49228,
+            "r": 575.6543600000008,
+            "b": 370.85672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            250
+          ]
+        }
+      ],
+      "orig": "· Deployment, Cloud & APIs: FastAPI, REST APIs, Uvicorn, AsyncIO, Docker, Google Cloud Run, Firebase (Auth, Firestore, Hosting), Apache Kafka, MySQL, SQLite, Git, Postman, Pytest, Model Deployment · OpenAI, Google Gemini, NVIDIA AI APIs, Groq, Ollama",
+      "text": "Deployment, Cloud & APIs: FastAPI, REST APIs, Uvicorn, AsyncIO, Docker, Google Cloud Run, Firebase (Auth, Firestore, Hosting), Apache Kafka, MySQL, SQLite, Git, Postman, Pytest, Model Deployment · OpenAI, Google Gemini, NVIDIA AI APIs, Groq, Ollama",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.0,
+            "t": 359.71292000000005,
+            "r": 181.73471999999998,
+            "b": 351.3353527272728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "PROFESSIONAL EXPERIENCE",
+      "text": "PROFESSIONAL EXPERIENCE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.0,
+            "t": 336.19292,
+            "r": 164.80272,
+            "b": 327.81535272727274,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "Test Engineer, Wipro Limited",
+      "text": "Test Engineer, Wipro Limited",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.0,
+            "t": 323.88224,
+            "r": 574.9022800000001,
+            "b": 315.2943054545455,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            131
+          ]
+        }
+      ],
+      "orig": "Chennai, Tamil Nadu | Sep 27, 2021 - Aug 10, 2026 | Sabbatical Jun 2024 - Aug 2026 for full-time M. Tech; relieved after graduation",
+      "text": "Chennai, Tamil Nadu | Sep 27, 2021 - Aug 10, 2026 | Sabbatical Jun 2024 - Aug 2026 for full-time M. Tech; relieved after graduation"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 309.35228,
+            "r": 575.4736800000005,
+            "b": 289.25672000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            168
+          ]
+        }
+      ],
+      "orig": "· Delivered 30+ Mastercard payment modernization projects across North America, APAC, Latin America, and EMEA, covering implementation, testing, and production rollout.",
+      "text": "Delivered 30+ Mastercard payment modernization projects across North America, APAC, Latin America, and EMEA, covering implementation, testing, and production rollout.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 284.39228,
+            "r": 575.6916800000007,
+            "b": 264.29672000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            169
+          ]
+        }
+      ],
+      "orig": "· Executed BIN 8 transition testing by validating customer-provided retain and return ranges and performing mainframe SQL checks against approved migration requirements.",
+      "text": "Executed BIN 8 transition testing by validating customer-provided retain and return ranges and performing mainframe SQL checks against approved migration requirements.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 259.43228,
+            "r": 575.6146400000003,
+            "b": 239.33672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            191
+          ]
+        }
+      ],
+      "orig": "· Validated 180-day transaction activity, including SMS and DMS transactions, and assessed mainframe dependencies to determine whether customer approval or further investigation was required.",
+      "text": "Validated 180-day transaction activity, including SMS and DMS transactions, and assessed mainframe dependencies to determine whether customer approval or further investigation was required.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 234.35227999999995,
+            "r": 575.4537600000008,
+            "b": 214.25671999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            213
+          ]
+        }
+      ],
+      "orig": "· Supported Token Replenishment by validating ICA and card details, reviewing eligible Token Pool ranges, and verifying range assignments against applicable business rules before MDES System Manager configuration.",
+      "text": "Supported Token Replenishment by validating ICA and card details, reviewing eligible Token Pool ranges, and verifying range assignments against applicable business rules before MDES System Manager configuration.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 209.36228000000006,
+            "r": 575.5517600000003,
+            "b": 189.26671999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "· Explored AI-assisted testing to suggest additional test scenarios, compare candidate ranges against approved requirements, and explain validation exceptions, with final verification performed using SQL results and established business rules.",
+      "text": "Explored AI-assisted testing to suggest additional test scenarios, compare candidate ranges against approved requirements, and explain validation exceptions, with final verification performed using SQL results and established business rules.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 184.12292000000002,
+            "r": 287.91648,
+            "b": 175.7453527272727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Graduate Technical Intern (Internship), Intel Corporation",
+      "text": "Graduate Technical Intern (Internship), Intel Corporation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.0,
+            "t": 170.85223999999994,
+            "r": 243.74635999999998,
+            "b": 162.26430545454548,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Bangalore, Karnataka | Jul 2, 2025 - May 27, 2026",
+      "text": "Bangalore, Karnataka | Jul 2, 2025 - May 27, 2026"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 156.32227999999998,
+            "r": 576.1532800000003,
+            "b": 136.22672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            181
+          ]
+        }
+      ],
+      "orig": "· Built RAG-based and Agentic AI applications using Lang Chain, multi-agent workflows, and retrieval-augmented generation during Intel's internal AI learning programs and Hackathon.",
+      "text": "Built RAG-based and Agentic AI applications using Lang Chain, multi-agent workflows, and retrieval-augmented generation during Intel's internal AI learning programs and Hackathon.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 131.36228000000006,
+            "r": 576.2019999999999,
+            "b": 111.26671999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            141
+          ]
+        }
+      ],
+      "orig": "· Performed post-silicon validation of Intel Xeon (Forest Series) server processors, focusing on cache coherency and system-level validation.",
+      "text": "Performed post-silicon validation of Intel Xeon (Forest Series) server processors, focusing on cache coherency and system-level validation.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 106.40628000000004,
+            "r": 575.5502000000004,
+            "b": 86.31071999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            156
+          ]
+        }
+      ],
+      "orig": "· Validated live-patching (Seamless Patching) mechanisms for Rapid Series processors across multiple runtime scenarios while maintaining platform stability.",
+      "text": "Validated live-patching (Seamless Patching) mechanisms for Rapid Series processors across multiple runtime scenarios while maintaining platform stability.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 81.32628,
+            "r": 575.5434000000007,
+            "b": 61.23072000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            149
+          ]
+        }
+      ],
+      "orig": "· Developed Python automation scripts to accelerate OOBMSM validation, reducing manual testing effort through automated workflows and for Validation.",
+      "text": "Developed Python automation scripts to accelerate OOBMSM validation, reducing manual testing effort through automated workflows and for Validation.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 38.04,
+            "t": 56.36627999999996,
+            "r": 576.02872,
+            "b": 36.24671999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            251
+          ]
+        }
+      ],
+      "orig": "· Conducted structured log analysis, debugging, and failure investigation to identify and isolate hardware and software validation issues. Worked with enterprise validation processes, improving reliability and efficiency of large-scale server testing.",
+      "text": "Conducted structured log analysis, debugging, and failure investigation to identify and isolate hardware and software validation issues. Worked with enterprise validation processes, improving reliability and efficiency of large-scale server testing.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 758.42292,
+            "r": 297.00000000000017,
+            "b": 750.0453527272726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "AI/ML, GENERATIVE AI & DATA SCIENCE PROJECTS",
+      "text": "AI/ML, GENERATIVE AI & DATA SCIENCE PROJECTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 735.86292,
+            "r": 354.42812000000015,
+            "b": 727.4853527272727,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "VoyageAI: AI Tour Planner, Live Full-Stack Multi-Agent Travel Assistant",
+      "text": "VoyageAI: AI Tour Planner, Live Full-Stack Multi-Agent Travel Assistant",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 724.03224,
+            "r": 549.6172800000005,
+            "b": 715.4443054545454,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            119
+          ]
+        }
+      ],
+      "orig": "FastAPI, LangChain, LangGraph, deepagents, Gemini, React, Firebase Auth, Firestore, Docker, Google Cloud Run, LangSmith",
+      "text": "FastAPI, LangChain, LangGraph, deepagents, Gemini, React, Firebase Auth, Firestore, Docker, Google Cloud Run, LangSmith"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 710.44228,
+            "r": 474.9394000000001,
+            "b": 701.86672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "Live: voyageai-702fe.web.app | Code: github.com/Shrihariharan1999/Agentic_AI/tree/main/ai-tour-planner",
+      "text": "Live: voyageai-702fe.web.app | Code: github.com/Shrihariharan1999/Agentic_AI/tree/main/ai-tour-planner",
+      "hyperlink": "https://github.com/Shrihariharan1999/Agentic_AI/tree/main/ai-tour-planner"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 697.00228,
+            "r": 576.1540000000001,
+            "b": 676.9067200000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            267
+          ]
+        }
+      ],
+      "orig": "· Built a multi-agent travel planner that turns natural-language requests into date-aware, day-by-day itineraries; a planner agent orchestrates a weather sub-agent and 8 live-data tools (Google Places/Routes, flights, hotels, train availability, weather, web search).",
+      "text": "Built a multi-agent travel planner that turns natural-language requests into date-aware, day-by-day itineraries; a planner agent orchestrates a weather sub-agent and 8 live-data tools (Google Places/Routes, flights, hotels, train availability, weather, web search).",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 672.04228,
+            "r": 576.0293200000003,
+            "b": 651.94672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            181
+          ]
+        }
+      ],
+      "orig": "· Grounded and controlled the agents: prices, URLs, and schedules come only from tool results and the agent stops to ask the user instead of guessing when constraints cannot be met.",
+      "text": "Grounded and controlled the agents: prices, URLs, and schedules come only from tool results and the agent stops to ask the user instead of guessing when constraints cannot be met.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 646.96228,
+            "r": 544.0344400000005,
+            "b": 638.38672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            124
+          ]
+        }
+      ],
+      "orig": "· Secured the FastAPI backend with Firebase ID-token verification and per-user ownership checks; chats persist in Firestore.",
+      "text": "Secured the FastAPI backend with Firebase ID-token verification and per-user ownership checks; chats persist in Firestore.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 633.52228,
+            "r": 570.3946400000007,
+            "b": 624.94672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "· Deployed React on Firebase Hosting (Google Sign-In) and a Dockerized FastAPI backend on Cloud Run, traced with LangSmith.",
+      "text": "Deployed React on Firebase Hosting (Google Sign-In) and a Dockerized FastAPI backend on Cloud Run, traced with LangSmith.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 619.80292,
+            "r": 418.85356000000013,
+            "b": 611.4253527272726,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            81
+          ]
+        }
+      ],
+      "orig": "Agentic AI Platform: Autonomous Data Analyst, Web Testing & MCP Tool-Using Agents",
+      "text": "Agentic AI Platform: Autonomous Data Analyst, Web Testing & MCP Tool-Using Agents"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 607.9722399999999,
+            "r": 429.0968400000007,
+            "b": 587.86672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            132
+          ]
+        }
+      ],
+      "orig": "LangGraph-style agents, FastAPI, Streamlit, SQLite, FastMCP, Playwright, Gemini, LangSmith · github.com/Shrihariharan1999/Agentic_AI",
+      "text": "LangGraph-style agents, FastAPI, Streamlit, SQLite, FastMCP, Playwright, Gemini, LangSmith · github.com/Shrihariharan1999/Agentic_AI"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 583.00228,
+            "r": 576.19312,
+            "b": 528.43672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            531
+          ]
+        }
+      ],
+      "orig": "· Autonomous AI Analyst: Built a multi-agent application with Coordinator, Analyst, and Validator agents that converts naturallanguage questions on CSV/Excel datasets into statistical analysis, visualizations, and web-researched answers, with SQLite for session and dataset-version tracking. Developed an LLM-as-a-Judge validation workflow that reviews generated reports, identifies issues, and automatically retries the draft before producing the final Markdown/HTML report, with file access sandboxed through a custom MCP server.",
+      "text": "Autonomous AI Analyst: Built a multi-agent application with Coordinator, Analyst, and Validator agents that converts naturallanguage questions on CSV/Excel datasets into statistical analysis, visualizations, and web-researched answers, with SQLite for session and dataset-version tracking. Developed an LLM-as-a-Judge validation workflow that reviews generated reports, identifies issues, and automatically retries the draft before producing the final Markdown/HTML report, with file access sandboxed through a custom MCP server.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 523.45228,
+            "r": 576.0203200000001,
+            "b": 503.35672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            184
+          ]
+        }
+      ],
+      "orig": "· AI Automation Testing: Built a Playwright-based web-testing agent supporting human-in-the-loop approval, self-healing retries, and LangSmith tracing for browser-based test execution.",
+      "text": "AI Automation Testing: Built a Playwright-based web-testing agent supporting human-in-the-loop approval, self-healing retries, and LangSmith tracing for browser-based test execution.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 498.49228,
+            "r": 576.17668,
+            "b": 478.39672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "· AI Code Interpreter: Developed a separate Python-based code-interpreter application within the same repository for executing AIgenerated analytical/code workflows in response to user requests.",
+      "text": "AI Code Interpreter: Developed a separate Python-based code-interpreter application within the same repository for executing AIgenerated analytical/code workflows in response to user requests.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 473.25292,
+            "r": 139.13580000000002,
+            "b": 464.87535272727274,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Enterprise RAG System",
+      "text": "Enterprise RAG System",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 461.42224,
+            "r": 506.8283600000006,
+            "b": 452.8343054545455,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "Python, LangChain, FAISS, BM25, Sentence-Transformers, Gemini · github.com/Shrihariharan1999/Enterprise_RAG",
+      "text": "Python, LangChain, FAISS, BM25, Sentence-Transformers, Gemini · github.com/Shrihariharan1999/Enterprise_RAG"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 447.97228,
+            "r": 575.2545600000011,
+            "b": 427.87672000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "· Built a modular RAG pipeline (ingestion, chunking, vector store, retrieval) supporting 8 document formats, combining FAISS semantic search with BM25 keyword search and cross-encoder reranking.",
+      "text": "Built a modular RAG pipeline (ingestion, chunking, vector store, retrieval) supporting 8 document formats, combining FAISS semantic search with BM25 keyword search and cross-encoder reranking.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 423.01228000000003,
+            "r": 562.2155600000006,
+            "b": 414.43672000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            134
+          ]
+        }
+      ],
+      "orig": "· Added spell-correction(optional), duplicate-file detection, page-level citations, and persistent chat history for traceable answers.",
+      "text": "Added spell-correction(optional), duplicate-file detection, page-level citations, and persistent chat history for traceable answers.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 409.29292000000004,
+            "r": 172.24728000000005,
+            "b": 400.91535272727276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "LLM Fine-Tuning with QLoRA",
+      "text": "LLM Fine-Tuning with QLoRA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 397.46224,
+            "r": 556.8474800000007,
+            "b": 388.8743054545455,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "Python, PyTorch, Hugging Face Transformers, PEFT, QLoRA · github.com/Shrihariharan1999/LLM_FineTuning_QLORA_2026",
+      "text": "Python, PyTorch, Hugging Face Transformers, PEFT, QLoRA · github.com/Shrihariharan1999/LLM_FineTuning_QLORA_2026",
+      "hyperlink": "https://github.com/Shrihariharan1999/LLM_FineTuning_QLORA_2026"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 383.99228,
+            "r": 575.472200000001,
+            "b": 363.89672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            185
+          ]
+        }
+      ],
+      "orig": "· Fine-tuned open-source LLMs with QLoRA (4-bit quantization plus LoRA adapters), training only a small slice of parameters so the job ran on a single consumer GPU instead of a cluster.",
+      "text": "Fine-tuned open-source LLMs with QLoRA (4-bit quantization plus LoRA adapters), training only a small slice of parameters so the job ran on a single consumer GPU instead of a cluster.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 358.91228,
+            "r": 450.6046400000006,
+            "b": 350.33672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            100
+          ]
+        }
+      ],
+      "orig": "· Benchmarked fine-tuned outputs against the base model to quantify the actual gain from adaptation.",
+      "text": "Benchmarked fine-tuned outputs against the base model to quantify the actual gain from adaptation.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 345.31292,
+            "r": 257.1717599999999,
+            "b": 336.93535272727274,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "Machine Learning, Deep Learning & NLP Portfolio",
+      "text": "Machine Learning, Deep Learning & NLP Portfolio",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 333.48224,
+            "r": 317.0022000000002,
+            "b": 324.8943054545455,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "Python, Scikit-learn, TensorFlow, Keras, PyTorch, NLTK, LangChain",
+      "text": "Python, Scikit-learn, TensorFlow, Keras, PyTorch, NLTK, LangChain"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 319.91228,
+            "r": 402.94496000000026,
+            "b": 311.33672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "GitHub: Machine_Learning_MTECH | Deep_Learning_2026 | Machine_Learning_2026",
+      "text": "GitHub: Machine_Learning_MTECH | Deep_Learning_2026 | Machine_Learning_2026"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 306.47228,
+            "r": 575.7494000000006,
+            "b": 286.37672000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            185
+          ]
+        }
+      ],
+      "orig": "· 87-notebook, 11-module portfolio spanning supervised/unsupervised ML, ensembles, and CNNs/LSTMs/GANs/Transformers implemented from scratch (attention and positional encoding by hand).",
+      "text": "87-notebook, 11-module portfolio spanning supervised/unsupervised ML, ensembles, and CNNs/LSTMs/GANs/Transformers implemented from scratch (attention and positional encoding by hand).",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 281.51228000000003,
+            "r": 575.4795200000007,
+            "b": 261.41671999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "· Includes a generative-AI module (prompt engineering, LoRA, RAG, LLM evaluation, GenAI ethics) and applied case studies: Titanic survival, cirrhosis-outcome prediction, and English-to-French translation.",
+      "text": "Includes a generative-AI module (prompt engineering, LoRA, RAG, LLM evaluation, GenAI ethics) and applied case studies: Titanic survival, cirrhosis-outcome prediction, and English-to-French translation.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 256.27292,
+            "r": 241.0166399999999,
+            "b": 247.89535272727267,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "MindMate: AI Mental Health Support Platform",
+      "text": "MindMate: AI Mental Health Support Platform",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 244.44223999999997,
+            "r": 527.5180000000004,
+            "b": 235.8543054545455,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "Next.js 14, FastAPI, Gemini 2.5 Flash, Llama 3.3 (Groq), DeepFace/MTCNN · github.com/Shrihariharan1999/MindMate",
+      "text": "Next.js 14, FastAPI, Gemini 2.5 Flash, Llama 3.3 (Groq), DeepFace/MTCNN · github.com/Shrihariharan1999/MindMate"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 230.99227999999994,
+            "r": 576.0288400000003,
+            "b": 199.34672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            380
+          ]
+        }
+      ],
+      "orig": "· The frontend runs on Next.js with a FastAPI backend, JWT auth, and real-time WebSocket chat. Llama 3.3, accessed through Groq, acts as an LLM judge that scores each conversation for safety, honesty, and empathy, with a rule-based fallback if the model call fails. Gemini chat, DeepFace/MTCNN emotion detection, VADER sentiment, and Edge-TTS voice feed a Recharts mood dashboard.",
+      "text": "The frontend runs on Next.js with a FastAPI backend, JWT auth, and real-time WebSocket chat. Llama 3.3, accessed through Groq, acts as an LLM judge that scores each conversation for safety, honesty, and empathy, with a rule-based fallback if the model call fails. Gemini chat, DeepFace/MTCNN emotion detection, VADER sentiment, and Edge-TTS voice feed a Recharts mood dashboard.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 188.32292000000007,
+            "r": 102.55271999999998,
+            "b": 179.94535272727273,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "HACKATHON",
+      "text": "HACKATHON",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 164.68291999999997,
+            "r": 559.3083600000003,
+            "b": 144.26430545454548,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            170
+          ]
+        }
+      ],
+      "orig": "DATASET'24 Hackathon: Telecom Energy Optimization (Sponsored by Prodapt and partnered with Nokia), VIT Chennai Python, Apache Kafka, LLMs, React | Certificate: Drive Link",
+      "text": "DATASET'24 Hackathon: Telecom Energy Optimization (Sponsored by Prodapt and partnered with Nokia), VIT Chennai Python, Apache Kafka, LLMs, React | Certificate: Drive Link"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 139.40228000000002,
+            "r": 576.25636,
+            "b": 130.82672000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            129
+          ]
+        }
+      ],
+      "orig": "· Built a real-time Kafka pipeline and LLM-driven model to predict network load and auto-switch cell towers to power-saving mode.",
+      "text": "Built a real-time Kafka pipeline and LLM-driven model to predict network load and auto-switch cell towers to power-saving mode.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.04,
+            "t": 125.84227999999996,
+            "r": 406.3426400000005,
+            "b": 117.26671999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            89
+          ]
+        }
+      ],
+      "orig": "· Delivered in a 4-person team over a 36-hour hackathon and presented to industry judges.",
+      "text": "Delivered in a 4-person team over a 36-hour hackathon and presented to industry judges.",
+      "enumerated": false,
+      "marker": "·"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 106.24692000000005,
+            "r": 192.45167999999995,
+            "b": 97.86935272727271,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "EDUCATION & ACHIEVEMENTS",
+      "text": "EDUCATION & ACHIEVEMENTS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 82.89624000000003,
+            "r": 364.6698400000001,
+            "b": 74.30830545454546,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "M. Tech, Computer Science & Engineering (AI & Data Science) | 2024 - 2026",
+      "text": "M. Tech, Computer Science & Engineering (AI & Data Science) | 2024 - 2026",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 70.40628000000004,
+            "r": 576.25648,
+            "b": 61.83072000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            128
+          ]
+        }
+      ],
+      "orig": "Vellore Institute of Technology, Chennai · CGPA: 9.28/10 · Meritorious Award for academic performance, Semester 1 and Semester 2",
+      "text": "Vellore Institute of Technology, Chennai · CGPA: 9.28/10 · Meritorious Award for academic performance, Semester 1 and Semester 2"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 53.85623999999996,
+            "r": 314.1298400000001,
+            "b": 45.2683054545455,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "B.E., Electronics and Instrumentation Engineering | 2017 - 2021",
+      "text": "B.E., Electronics and Instrumentation Engineering | 2017 - 2021"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.0,
+            "t": 41.34227999999996,
+            "r": 232.08679999999998,
+            "b": 32.766719999999964,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "Panimalar Engineering College · CGPA: 8.66/10",
+      "text": "Panimalar Engineering College · CGPA: 8.66/10"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 36,
+        "size": {
+          "width": 306.0,
+          "height": 396.0
+        },
+        "uri": "C:\\Users\\shrih\\Downloads\\multimodal-document-rag\\data\\processed\\docling\\doc_02bd03874fe44a0adf4fc174\\docling_assets\\page_000001_1b2eef4beb31fe1441d18ff84291169fd90791c2b78258be9b39d6f4866abb12.png"
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 36,
+        "size": {
+          "width": 306.0,
+          "height": 396.0
+        },
+        "uri": "C:\\Users\\shrih\\Downloads\\multimodal-document-rag\\data\\processed\\docling\\doc_02bd03874fe44a0adf4fc174\\docling_assets\\page_000002_5b71a55708ab39efd0a4cb0a3dbdd1b83c9a614fa0b94cf9db21c7b73a447f2e.png"
+      },
+      "page_no": 2
+    }
+  }
+}
